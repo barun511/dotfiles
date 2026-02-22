@@ -16,8 +16,21 @@ return {
   ---@type conform.setupOpts
   opts = {
     -- Define your formatters
+    formatters = {
+      biome = {
+        require_cwd = true,
+      },
+    },
     formatters_by_ft = {
       lua = { "stylua" },
+      javascript = { "biome" },
+      typescript = { "biome" },
+      javascriptreact = { "biome" },
+      typescriptreact = { "biome" },
+      javascript = { "prettier" },
+      typescript = { "prettier" },
+      javascriptreact = { "prettier" },
+      typescriptreact = { "prettier" },
     },
     -- Set default options
     default_format_opts = {

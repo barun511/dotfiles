@@ -8,11 +8,19 @@ return {
       "nvim-tree/nvim-web-devicons",
     },
     opts = {
-      close_if_last_window = false, -- Close Neo-tree if it is the last window left in the tab
+      close_if_last_window = true, -- Close Neo-tree if it is the last window left in the tab
       enable_git_status = true,
       modified = {
         symbol = "[+]",
         highlight = "NeoTreeModified",
+      },
+      filesystem = {
+        window = {
+          mappings = {
+            ["l"] = "open",
+            ["h"] = "close",
+          },
+        },
       },
       git_status = {
         symbols = {
@@ -35,10 +43,15 @@ return {
             ["<Space>"] = false,
             ["[b"] = "prev_source",
             ["]b"] = "next_source",
+            ["o"] = {
+              "show_help",
+              nowait = false,
+              config = { title = "Order by", prefix_key = "o" },
+            },
             O = "system_open",
             Y = "copy_selector",
             h = "parent_or_close",
-            l = "child_or_open",
+            l = "open",
           },
         },
       },
