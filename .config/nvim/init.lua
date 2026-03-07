@@ -13,3 +13,4 @@ vim.opt.clipboard:append { "unnamedplus" }
 vim.opt.termguicolors = true
 require "config.lazy"
 require "keymappings"
+vim.cmd [[colorscheme tokyonight]]
