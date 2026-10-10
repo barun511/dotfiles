@@ -9,6 +9,10 @@
       "rev": "b79da16a6a0b34640a4ff19bccd7f4cf29bd6d4d",
       "src": "https://github.com/wasabeef/bufferin.nvim"
     },
+    "fidget.nvim": {
+      "rev": "9e0201673e08e997e7cf52afca5565c70bd117f3",
+      "src": "https://github.com/j-hui/fidget.nvim"
+    },
     "gruvbox-material": {
       "rev": "11d779b26a9ab2b3db8c22c6ac9fb6e8ed4fea79",
       "src": "https://github.com/sainnhe/gruvbox-material"

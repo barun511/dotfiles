@@ -6,6 +6,7 @@ require "lsp-management.mason-setup"
 require "lsp-management.rustacean"
 require "lsp-management.rescript"
 require "lsp-management.inlay-hints"
+require "lsp-management.fidget"
 
 -- Configure snacks (explorer, telescope, etc)
 require "snacks-setup.init"
