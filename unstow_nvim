@@ -1,0 +1,2 @@
+#! /bin/zsh
+stow -t ~/.config/nvim/ -D nvim
