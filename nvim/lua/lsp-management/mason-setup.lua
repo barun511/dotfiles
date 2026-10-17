@@ -17,6 +17,7 @@ require("mason-lspconfig").setup {
     "biome",
     "cssls",
     "hls",
+    "clangd",
     "ts_ls",
   },
 }
