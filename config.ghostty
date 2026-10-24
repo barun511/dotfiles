@@ -9,3 +9,4 @@ keybind = ctrl+digit_6=goto_tab:6
 keybind = ctrl+digit_7=goto_tab:7
 keybind = ctrl+digit_8=goto_tab:8
 keybind = ctrl+digit_9=goto_tab:9
+font-size = 16
