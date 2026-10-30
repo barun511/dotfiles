@@ -17,3 +17,32 @@ vim.lsp.config["ocamllsp"] = {
 }
 
 vim.lsp.enable "ocamllsp"
+
+-- We set up conform because ocaml does not format via lsp.
+
+vim.pack.add {
+  "https://github.com/stevearc/conform.nvim",
+}
+
+require("conform").setup {
+  formatters_by_ft = {
+    ocaml = { "ocamlformat" },
+  },
+  formatters = {
+    ocamlformat = {
+      prepend_args = {
+        "--if-then-else",
+        "vertical",
+        "--break-cases",
+        "fit-or-vertical",
+        "--type-decl",
+        "sparse",
+      },
+    },
+  },
+}
+
+vim.api.nvim_create_autocmd("BufWritePre", {
+  pattern = "*",
+  callback = function(args) require("conform").format { bufnr = args.buf } end,
+})
