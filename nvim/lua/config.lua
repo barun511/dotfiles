@@ -35,6 +35,9 @@ require "statusline.init"
 -- Multicursor
 require "multicursor.init"
 
+-- Version control
+require "version-control.init"
+
 -- Configure keymappings
 require "keymappings.basic"
 require "keymappings.explorer"

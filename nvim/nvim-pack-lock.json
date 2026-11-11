@@ -38,6 +38,14 @@
       "rev": "c7f8047d964fb155a701b7c860fa3d4143d713c5",
       "src": "https://github.com/Vigemus/iron.nvim"
     },
+    "jj.nvim": {
+      "rev": "79be2ec0c8ba79d3e24184fc31d611245528fc67",
+      "src": "https://github.com/NicolasGB/jj.nvim"
+    },
+    "jjsigns.nvim": {
+      "rev": "f5f5cefef0945cc00ba914584275f9cef8c2e792",
+      "src": "https://github.com/evanphx/jjsigns.nvim"
+    },
     "kanagawa.nvim": {
       "rev": "bb85e4bfc8d89b0e62c8fa53ccdd13d12e2f77b3",
       "src": "https://github.com/rebelot/kanagawa.nvim"
