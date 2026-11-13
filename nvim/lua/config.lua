@@ -38,6 +38,9 @@ require "multicursor.init"
 -- Version control
 require "version-control.init"
 
+-- Terminal
+require "terminal.init"
+
 -- Configure keymappings
 require "keymappings.basic"
 require "keymappings.explorer"
@@ -45,3 +48,4 @@ require "keymappings.picker"
 require "keymappings.mason-mappings"
 require "keymappings.lsp-mappings"
 require "keymappings.buffers"
+require "keymappings.terminal"

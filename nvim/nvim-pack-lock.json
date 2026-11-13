@@ -13,9 +13,17 @@
       "rev": "016802de402556da54c36bd7359b441266b01cdd",
       "src": "https://github.com/stevearc/conform.nvim"
     },
+    "dioxus.nvim": {
+      "rev": "311558c09951da3c23d8feb830c48629cdb42db4",
+      "src": "https://github.com/mrxiaozhuox/dioxus.nvim"
+    },
     "fidget.nvim": {
       "rev": "9e0201673e08e997e7cf52afca5565c70bd117f3",
       "src": "https://github.com/j-hui/fidget.nvim"
+    },
+    "floaterm": {
+      "rev": "4f24e90f1281d6a848c96adb6501573c8e0e406b",
+      "src": "https://github.com/nvzone/floaterm"
     },
     "gruvbox-material": {
       "rev": "11d779b26a9ab2b3db8c22c6ac9fb6e8ed4fea79",
@@ -150,6 +158,10 @@
     "vim-rescript": {
       "rev": "512e9f1b867d6c88f75756a411026653e22efaed",
       "src": "https://github.com/rescript-lang/vim-rescript"
+    },
+    "volt": {
+      "rev": "4351c5cd790a0d39491c4d5c75dd62d7db3d3414",
+      "src": "https://github.com/nvzone/volt"
     }
   }
 }
